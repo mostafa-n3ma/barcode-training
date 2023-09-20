@@ -1,4 +1,5 @@
 package com.mostafan3ma.android.barcode1
+//mostafa nema
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -28,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding =ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        Toast.makeText(this,"barcode init",Toast.LENGTH_SHORT).show()
         if (ContextCompat.checkSelfPermission(
                 this,
                 Manifest.permission.CAMERA
